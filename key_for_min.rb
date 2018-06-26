@@ -3,5 +3,6 @@
 
 def key_for_min_value(num_hash)
   min_value = name_hash.collect{|key, num| num}.sort[0]
-  name_hash.
+  key, num = name_hash.find {|key, num| num == min_value}
+
 end
